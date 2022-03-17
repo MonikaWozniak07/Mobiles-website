@@ -66,7 +66,7 @@ nav > ul {
 nav > ul > li a , nav > ul > li span{
     color:#FFFFFF;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
     cursor: pointer;
 }
 
@@ -78,7 +78,6 @@ nav > ul > li a , nav > ul > li span{
 
 .header-content_text {
     color: #FFFFFF;
-    /* margin: 50px; */
     padding: 50px;
     max-width: 100%;
 }
@@ -332,6 +331,9 @@ section.mobiles h1 {
         grid-column: 2/3;
         grid-row: 2/3;
         margin-top: -150px;
+    }
+    .section_wrapper .arr3 .arrow {
+        max-width: 100px;
     }
     .mobile3 .section_wrapper_text {
         margin-top:80px;
