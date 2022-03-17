@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie próbne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loginForm" class="popup">
+        <div class="background"></div>
+        <div class="wrapper">
+    <div class="form-wrapper">
+        <div id="go-back" class="close">
+            <img src="img/xmark-solid.svg" alt="x">
+        </div>
+      <form method="POST" action="send" id="form">
+        <div>
+          <label>
+            Adres email:
+          </label></br>
+          <input type="email" name="email" id="email">
+        </div>
+        <label> Hasło:</label> <br>
+        <input type="password">
+        <div class="btn login">
+            <span>Zaloguj</span>
+        </div>
+      </form>
+    </div>
+  </div>
+    </div>
+
+    <header>
+        <div class="header-wrapper">
+            <div class="nav-logo_wrapper">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>  
+                <div class="hamburger">
+                    <img class="bars" src="img/bars-solid.svg" alt="hamburger">
+                </div>    
+                <nav>
+                    <ul>
+                        <img class="xmark" src="img/xmark-solid.svg" alt="close">
+                        <li><a href="#">Start</a></li>
+                        <li><a href="#">Jak to działa?</a></li>
+                        <li><a href="#">Cennik</a></li>
+                        <li><span>|</span></li>
+                        <li><a data-modal="loginForm">Logowanie</a></li>
+                        <li><a href="#">Rejestracja</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-content">
+                <div class="header-content_text">
+                    <h1>Poznaj Lorem Ipsum!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                        accumsan lacus vel facilisis.</p>
+                    <div class="header-content_text__buttons">
+                        <div class="btn app">
+                            <span>O aplikacji</span>
+                        </div>
+                        <div class="btn download">
+                            <span>Pobierz</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-content_image">
+                    <img src="img/phone_hand 1.png" alt="phone-hand">
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section class="mobiles">
+    <a href="#how-it-works"><img class="scroll" src="img/btn.png" alt="scroll"></a>
+    <h1 id="how-it-works">Jak to działa?</h1>
+
+    <div class="section_wrapper">
+    <div class="mobile1">
+        <img src="img/phone_big 2.png" alt="mobile1">
+        <div class="section_wrapper_text">
+            <div class="mobile-main_text">
+                <h2>1</h2>
+                <p>Lorem ipsum
+                    dolor sit amet </p>
+            </div>
+            <div class="mobile-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </div>
+    </div>
+        <div class="arr1">
+            <img class="arrow" src="img/arrow1-1.png" alt="arrow1"> 
+        </div>
+        <div class="mobile2">
+            <div class="section_wrapper_text">
+                <div class="mobile-main_text">
+                    <h2>2</h2>
+                    <p>Lorem ipsum
+                        dolor sit amet </p>
+                </div>
+                <div class="mobile-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <img class="mobile" src="img/phone_big 1.png" alt="mobile2">
+        </div>
+        <div class="arr2">
+            <img class="arrow" src="img/arrow1 2.png" alt="arrow2">
+        </div>
+        <div class="mobile3">
+            <img class="mobile" src="img/phone_big 1.png" alt="mobile3">
+            <div class="section_wrapper_text">
+                <div class="mobile-main_text">
+                    <h2>3</h2>
+                    <p>Lorem ipsum
+                        dolor sit amet </p>
+                </div>
+                <div class="mobile-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+        </div>
+        <div class="arr3">
+            <img class="arrow" src="img/arrow2.png" alt="arrow3">
+        </div>
+        <div class="mobile4">
+            <div class="section_wrapper_text">
+                <div class="mobile-main_text">
+                    <h2>4</h2>
+                    <p>Lorem ipsum
+                        dolor sit amet </p>
+                </div>
+                <div class="mobile-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <img class="mobile" src="img/phone_big 4.png" alt="mobile4">
+        </div>
+    </div>
+
+    <div class="end-text">
+        <h2>Lorem ipsum</h2>
+    </div>
+</section>
+
+<section class="price-list">
+    <div class="price-list_text">
+        <h1>Cennik<span>Ile to kosztuje?</span></h1>
+    </div>
+    <div class="price-list_container">
+        <div class="price-list_container__header">
+            <div class="phone"><img src="img/phone_small 1.png" alt="small-phone"></div>
+            <div class="price-list_container__header-text">
+                <span>Lorem ipsum</span>
+                <h1>Dolor sit amet</h1> <br>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div class="border"></div>
+
+    <table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><p class="orange">Basic</p></th>
+        <th><p class="orange">Premium</p></th>
+    </tr>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><p class="black">wersja darmowa</p></th>
+        <th><p class="black up">79,00</p></th>
+    </tr>
+    
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><p class="green">30% taniej</p></th>
+    </tr>
+    
+            <tr>
+                <td> <p>Lorem ipsum</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+
+            <tr>
+                <td> <p>dolor sit amet, consectetur</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+
+            <tr>
+                <td> <p>adipiscing elit, sed do eiusmod</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+
+            <tr>
+                <td> <p>tempor incididunt</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+            <tr>
+                <td> <p>ut labore et dolore</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/xmark-solid.svg" alt="x"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+            <tr>
+                <td> <p>Lorem ipsum</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/xmark-solid.svg" alt="x"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+            <tr>
+                <td> <p> Ipsum dolor sit amet ut labore et </p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/xmark-solid.svg" alt="x"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+            <tr>
+                <td> <p>dolore magna aliqua</p></td>
+                <th></th>
+                <th></th>
+                <th><img src="img/xmark-solid.svg" alt="x"></th>
+                <th><img src="img/check-solid.svg" alt="check"></th>
+            </tr>
+            
+        </table>
+
+        <h2>Zarejestruj się i wypróbuj!</h2>
+        <div class="price-list_container__buttons">
+                <div class="btn reg">Rejestracja</div>
+                <div class="btn log">
+                    <span>Logowanie</span>
+                </div>
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
