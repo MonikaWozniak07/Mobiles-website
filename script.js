@@ -19,20 +19,24 @@ const exits = modal.querySelectorAll(".modal-exit");
     });
 });
 
-
-if (window.location.hash.indexOf("loginForm") !== -1) {
-        console.log(window.location.hash);
-        modal.classList.add("open");
-    exits.forEach(function(exit) {
-        exit.addEventListener("click", function() {
-            modal.classList.remove("open");
-            history.pushState("", document.title, window.location.pathname + window.location.search);
-        });
-    });
-    window.onhashchange = function() {
-        modal.classList.remove("open");
-        history.pushState("", document.title, window.location.pathname + window.location.search);
-    }
+window.onload = function(e) {
+  e.preventDefault();
+  setTimeout(function(){
+    if (window.location.hash.indexOf("loginForm") !== -1) {
+      console.log(window.location.hash);
+      modal.classList.add("open");
+  exits.forEach(function(exit) {
+      exit.addEventListener("click", function() {
+          modal.classList.remove("open");
+          history.pushState("", document.title, window.location.pathname + window.location.search);
+      });
+  });
+  window.onhashchange = function() {
+      modal.classList.remove("open");
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+  }
+  }
+  },200)
 }
 
 document.getElementById('go-back').addEventListener('click', () => {
